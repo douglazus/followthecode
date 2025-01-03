@@ -91,17 +91,18 @@ When the analysis is finished, a popup message will inform you where the CSV fil
 
 ---
 
-## CSV Outputs**
+## CSV Outputs
 After the script completes, you should see multiple CSV files in analysis_results (within the chosen repo). Each file corresponds to one of the metrics:
-
-authors_commits.csv
-most_modified_files.csv
-files_authors.csv
-added_lines_by_author.csv
-removed_lines_by_author.csv
-code_churn_by_author.csv
-commits_by_weekday.csv
-average_commit_time_by_author.csv
+   ```bash
+   authors_with_most_commits.csv
+   average_time_between_commits.csv
+   commits_by_author.csv
+   commits_by_day.csv
+   files_most_changed_by_authors.csv
+   files_with_most_authors.csv
+   lines_by_author.csv
+   most_modified_files.csv
+   ```
 
 Feel free to open these in Excel, Google Sheets, or any other tool for further analysis.
 
