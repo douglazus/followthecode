@@ -92,7 +92,7 @@ When the analysis is finished, a popup message will inform you where the CSV fil
 ---
 
 ## CSV Outputs
-After the script completes, you should see multiple CSV files in analysis_results (within the chosen repo). Each file corresponds to one of the metrics:
+After the script completes, you should see multiple CSV files in the py script folder. Each file corresponds to one of the metrics:
    ```bash
    authors_with_most_commits.csv
    average_time_between_commits.csv
